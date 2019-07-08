@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10951144350,
+              "duration": 10030142603,
               "status": "passed"
             },
             "line": 5,
@@ -24,19 +24,19 @@
           },
           {
             "result": {
-              "duration": 8424114,
+              "duration": 21783343,
               "status": "passed"
             },
             "line": 6,
-            "name": "title of login page is Free CRM",
+            "name": "title of login page is ANZ",
             "match": {
-              "location": "LoginStepDefinition.title_of_login_page_is_free_CRM()"
+              "location": "LoginStepDefinition.title_of_login_page_is_ANZ()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 6032503,
+              "duration": 7493411,
               "status": "passed"
             },
             "line": 7,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 11198521912,
+              "duration": 5056987925,
               "status": "passed"
             },
             "line": 8,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 10085766900,
+              "duration": 4085952358,
               "status": "passed"
             },
             "line": 10,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 141902059,
+              "duration": 129923525,
               "status": "passed"
             },
             "line": 11,
@@ -102,6 +102,6 @@
     "description": "",
     "id": "deal-data-creation",
     "keyword": "Feature",
-    "uri": "/Users/SUSHMITA/workspace/FreeCrmBDDFramework/src/main/java/Features/login.feature"
+    "uri": "E:/workspace/ANZBDDFramework/src/main/java/Features/login.feature"
   }
 ]

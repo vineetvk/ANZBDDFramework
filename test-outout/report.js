@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/SUSHMITA/workspace/FreeCrmBDDFramework/src/main/java/Features/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("E:/workspace/ANZBDDFramework/src/main/java/Features/login.feature");
 formatter.feature({
   "line": 1,
   "name": "Deal data creation",
@@ -21,7 +21,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "title of login page is Free CRM",
+  "name": "title of login page is ANZ",
   "keyword": "When "
 });
 formatter.step({
@@ -61,42 +61,42 @@ formatter.match({
   "location": "LoginStepDefinition.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 10951144350,
+  "duration": 10030142603,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.title_of_login_page_is_free_CRM()"
+  "location": "LoginStepDefinition.title_of_login_page_is_ANZ()"
 });
 formatter.result({
-  "duration": 8424114,
+  "duration": 21783343,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_is_on_hopme_page()"
 });
 formatter.result({
-  "duration": 6032503,
+  "duration": 7493411,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_enters_contacts_details(DataTable)"
 });
 formatter.result({
-  "duration": 11198521912,
+  "duration": 5056987925,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_enters_startover_button()"
 });
 formatter.result({
-  "duration": 10085766900,
+  "duration": 4085952358,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_enters_only_for_Living_expenses()"
 });
 formatter.result({
-  "duration": 141902059,
+  "duration": 129923525,
   "status": "passed"
 });
 });

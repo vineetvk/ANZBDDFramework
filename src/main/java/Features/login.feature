@@ -3,7 +3,7 @@ Feature: Deal data creation
 Scenario: Free CRM Create a new deal scenario
 
 Given user is already on Login Page
-When title of login page is Free CRM
+When title of login page is ANZ
 Then user is on home page
 Then user enters deal details
 | 500 | 0 | 100 | 10000 | 80000 | 10000 |
