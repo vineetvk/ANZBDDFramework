@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free CRM Create a new deal scenario",
+        "description": "",
+        "id": "deal-data-creation;free-crm-create-a-new-deal-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10951144350,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8424114,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6032503,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11198521912,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters deal details",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_contacts_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "500",
+                  "0",
+                  "100",
+                  "10000",
+                  "80000",
+                  "10000"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10085766900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters startover button",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_startover_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 141902059,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters only for Living expense",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_only_for_Living_expenses()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Deal data creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "/Users/SUSHMITA/workspace/FreeCrmBDDFramework/src/main/java/Features/login.feature"
+  }
+]
